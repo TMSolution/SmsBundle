@@ -17,7 +17,7 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('sms');
+        $rootNode = $treeBuilder->root('tm_solution_sms');
 
         $rootNode
             ->children()
