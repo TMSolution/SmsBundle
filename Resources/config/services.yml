@@ -1,0 +1,12 @@
+services:
+    sms.smsapi:
+        class: TMSolution\SmsBundle\Service\SmsApi
+        arguments: [@service_container]
+        
+    pdu.generator:
+        class: TMSolution\SmsBundle\Service\PduGenerator
+        arguments: [@service_container]
+        
+    gate.2n.api:
+        class: TMSolution\SmsBundle\Service\Gate2n
+        arguments: [@service_container]

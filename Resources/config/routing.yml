@@ -1,0 +1,7 @@
+sms.homepage:
+    path:     /smsapi/test
+    defaults: { _controller: TMSolution\SmsBundle:Default:test }
+    
+sms.smsapi.callback:
+    path:     /smsapi/test
+    defaults: { _controller: TMSolution\SmsBundle:Default:callback }
