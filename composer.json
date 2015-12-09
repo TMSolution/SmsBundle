@@ -3,7 +3,7 @@
     "type": "symfony-bundle",
     "description": "Symfony2 bundle for sms",
     "keywords": ["sms","smsapi", "bundle"],
-    "homepage": "https://github.com/TMSolution/TMSolution\SmsBundle",
+    "homepage": "https://github.com/TMSolution/SmsBundle",
     "license": "MIT",
     "authors": [
         {
